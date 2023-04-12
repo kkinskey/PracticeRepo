@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.practiceproject.MultipleChoiceQuestionController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <BorderPane>
+        <center>
+            <VBox spacing="10">
+                <Label fx:id="questionLabel" />
+                <RadioButton fx:id="option1" />
+                <RadioButton fx:id="option2" />
+                <RadioButton fx:id="option3" />
+                <RadioButton fx:id="option4" />
+            </VBox>
+        </center>
+    </BorderPane>
+
+</AnchorPane>
+
+
+
